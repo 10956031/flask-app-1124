@@ -32,7 +32,7 @@ def customer_list():
     data=[{'name':'王小明', 'gender':'男', 'age':50},
           {'name':'假面騎士帝騎', 'gender':'男', 'age':100},
           {'name':'假面騎士Decard', 'gender':'男', 'age':20},
-          {'name':'Decade', 'gender':'男', 'age':35},
+          {'name':'DDDecade', 'gender':'男', 'age':35},
           {'name':'池塘的守護者', 'gender':'男', 'age':500}]
     return render_template('list.html', data=data)
 
